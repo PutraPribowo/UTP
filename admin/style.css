@@ -1,0 +1,151 @@
+  padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: #c0c0c0;
+}
+
+div.isi{
+    background: #ffffff;
+    width: 350px;
+    margin: 222px auto 0;
+    border-radius: 16px;
+    min-height: 256px;
+    overflow: hidden;
+}
+
+div.login-body{
+    background: #f85252;
+    padding: 10px 22px;
+    height: 60px;
+}
+
+div.login-body h2.form-row{
+    color: #fff;
+    font-weight: normal;
+    line-height: 40px;
+    display: inline-block;
+}
+
+div.form-row{
+    background-image: url("lock.png");
+    background-position: center;
+    background-size: 38px;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-top: 8px;
+    float: left;
+    margin-right: 10px;
+}
+
+div.form-row{
+    padding:10px 22px 0;
+    color: #808080;
+}
+
+div.form-row div.form-row{
+    margin: 16px 0;
+}
+
+div.form-row div.form-row label,
+div.form-row div.form-row input{
+    display: block;
+}
+
+div.form-row div.form-row label{
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+div.form-row div.form-row input[type="text"],
+div.form-row div.form-row input[type="password"]{
+    width: 100%;
+    height: 30px;
+    padding: 0 10px;
+    background: #eeeeee;
+    border:none;
+    color: #808080;
+}
+
+div.form-row div.form-row input[type="submit"]{
+    background: #33cd77;
+    padding: 4px 16px;
+    margin: 0 auto;
+    border: 1px solid #33cd77;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+}
+
+div.form-row div.form-row input[type="submit"]:hover{
+    background: #28a45e;
+}
+
+* { box-sizing: border-box; margin: 0; padding:0; }
+
+html {
+
+  background: url('awan-di-langit.jpg');
+  background-size:cover;
+  font-family: 'Helvetica Neue', Arial, Sans-Serif;
+}
+button {
+        background:#3caae7;
+        border:1;
+        color: white;
+        font-size: 20px;
+        font-weight: 200;
+        cursor: pointer;
+        transition: box-shadow .4s ease;
+
+        &:hover {
+          box-shadow: 1px 1px 5px #555;
+        }
+
+        &:active {
+            box-shadow: 1px 1px 7px #222;
+        }
+
+      }
+
+      h2 {
+      text-align: center;
+      font-weight: 200;
+      font-size: 2em;
+      margin-top: 10px;
+      color: rgba(223, 14, 249, 0.73);
+    }
+
+      .login-wrap {
+          position: relative;
+          margin: 0 auto;
+          margin-top: 80px;
+          background: #ecf0f1;
+          width: 350px;
+          border-radius: 5px;
+          box-shadow: 3px 3px 10px #333;
+          padding: 10px;
+        }
+
+        input[type="text"],
+              input[type="password"],
+              button {
+                width: 80%;
+                margin-left: 10%;
+                margin-bottom: 25px;
+                height: 40px;
+                border-radius: 5px;
+                outline: 0;
+              }
+
+     .imgcenter {
+      display: block;
+      text-align: center;
+      width: 20px;
+      height: 20px;
+      padding: 1px;
+}
